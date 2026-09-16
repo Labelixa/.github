@@ -1,6 +1,6 @@
 # Labelixa
 
-Labelixa is a ZPL label rendering and validation service: preview, validate and convert Zebra ZPL label code in the browser, through a REST API or from AI assistants over MCP, and generate barcodes — no printer required.
+Labelixa is a thermal label rendering and validation service: render, validate, debug and convert ZPL, EPL, TSPL and CPCL label code in the browser, through a REST API or from AI assistants over MCP, and generate barcodes — no printer required.
 
 **[labelixa.com](https://labelixa.com)** · [Documentation](https://labelixa.com/docs) · [API reference](https://labelixa.com/docs/api) · [Status](https://labelixa.com/status)
 
@@ -29,7 +29,7 @@ There is also a local stdio package on npm for clients that prefer one. The remo
 | npm | [`labelixa`](https://www.npmjs.com/package/labelixa) (JS SDK) · [`labelixa-mcp`](https://www.npmjs.com/package/labelixa-mcp) (local MCP server) |
 | PyPI | [`labelixa`](https://pypi.org/project/labelixa/) (Python SDK) |
 | VS Code | [Labelixa ZPL](https://marketplace.visualstudio.com/items?itemName=Labelixa.labelixa-zpl) |
-| MCP directories | [Smithery](https://smithery.ai/servers/labelixa/zpl) · [MCPBeat](https://mcpbeat.com/mcp-servers/labelixa/zpl/) |
+| MCP directories | [Glama](https://glama.ai/mcp/connectors/com.labelixa/zpl) · [Smithery](https://smithery.ai/servers/labelixa/zpl) · [MCPBeat](https://mcpbeat.com/mcp-servers/labelixa/zpl/) |
 
 ## Open repositories here
 
@@ -37,6 +37,7 @@ There is also a local stdio package on npm for clients that prefer one. The remo
 - **[thermal-printer-examples](https://github.com/Labelixa/thermal-printer-examples)** — working TSPL, EPL and CPCL label examples, linted and rendered against a live engine in CI.
 - **[thermal-printer-cheatsheets](https://github.com/Labelixa/thermal-printer-cheatsheets)** — ZPL, TSPL, EPL and CPCL command cheatsheets, generated from a tested implementation, with honest per-command render coverage.
 - **[awesome-thermal-printing](https://github.com/Labelixa/awesome-thermal-printing)** — a curated list of tools, references and specifications for thermal label printing.
+- **[labelixa-mcp](https://github.com/Labelixa/labelixa-mcp)** — source of the `labelixa-mcp` npm package: a local stdio MCP server that calls the Labelixa API. MIT.
 
 The application itself is not open source.
 
